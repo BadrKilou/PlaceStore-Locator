@@ -7,4 +7,4 @@ I used Mapbox Api for this Project to get the Map.
 
 Overview: 
 
-![](edited.png) 
+![](images/edited.png) 
