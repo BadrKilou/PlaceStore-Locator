@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome Search Kenaras</h2>
+    <div class="content1">
+      <h1>City Searcher</h1>
+      <i class="fas fa-map-marker-alt"></i>
+    </div>
+      
+    <form class="form">
+      <div id="errorWrap"></div>
+      <input type="text" class="search" placeholder="Add your city here ..">
+      <button type="submit" class="button is-success" id="cta-btn">
+        <i class="fas fa-search-location ">
+          Add City
+        </i>
+        </button>
+    </form>
+
+    <div id="map">
+
+    </div>
+  </div>
+  <div class="overlay"></div>
+   
+
+  <script src="js/script.js"></script>
+</body>
+</html>
